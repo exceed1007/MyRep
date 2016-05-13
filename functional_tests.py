@@ -12,7 +12,7 @@ from selenium import webdriver
 browser = webdriver.Firefox()
 browser.implicitly_wait(3)
 browser.get('http://localhost:8000')
-#assert 'To-Do' in browser.title
+assert 'Django' in browser.title
 #browser.quit()
 
 if __name__ == '__main__':
